@@ -3,7 +3,7 @@ import webbrowser
 from telebot import types
 
 #token
-bot = telebot.TeleBot('7111952552:AAHX_DhpO-wDTVy7Md-luME1b0LpnAWXFMY')
+bot = telebot.TeleBot('yourtoken')
 
 #commands
 @bot.message_handler(commands=['youtube', 'ютуб'])
@@ -44,7 +44,7 @@ def info(message):
         bot.send_message(message.chat.id, ('''вот информация как поддержать автора
 my github = https://github.com/Ananas1kexe
 my discord = https://discord.gg/ZATnKgzcEK
-my tg chanel = https://t.me/ananas1kexe
+
                                            '''))
 
 
